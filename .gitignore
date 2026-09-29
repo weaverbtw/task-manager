@@ -8,6 +8,9 @@ venv/
 .env
 .env.*
 
+# Allow the safe example file
+!.env.example
+
 # Node
 node_modules/
 
