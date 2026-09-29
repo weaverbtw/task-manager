@@ -2,17 +2,6 @@
 
 A full-stack task management application built while learning backend and full-stack software engineering.
 
-## Prerequisites
-
-Before running this project locally, install:
-
-- Git
-- Python 3.x
-- Node.js and npm
-- PostgreSQL
-- VS Code or another code editor
-- pgAdmin 4 (optional for db gui)
-
 ## Backend
 
 - Python
@@ -39,3 +28,14 @@ Before running this project locally, install:
 - Update task names
 - Search tasks
 - User-specific task ownership
+
+## Prerequisites
+
+Before running this project locally, install:
+
+- Git
+- Python 3.x
+- Node.js and npm
+- PostgreSQL
+- VS Code or another code editor
+- pgAdmin 4 (optional for db gui)
