@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Node
+node_modules/
+
+# Build output
+dist/
+
+# IDE
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
