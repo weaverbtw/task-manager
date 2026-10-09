@@ -26,7 +26,7 @@ def get_task_by_id(db: Session, current_user_id: int, task_id: int):
     return task
 
 def create_task(db: Session, current_user_id: int, task_name: str):
-    existing_task = db.query(Task).filter(Task.name == task_name).first()
+    existing_task = db.query(Task).filter(Task.name == task_name, Task.user_id == current_user_id).first()
 
     if existing_task:
         raise HTTPException(status_code=400, detail="Task already exists")
